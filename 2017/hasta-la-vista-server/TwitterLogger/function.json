@@ -1,0 +1,23 @@
+{
+  "bindings": [
+    {
+      "type": "httpTrigger",
+      "direction": "in",
+      "webHookType": "genericJson",
+      "name": "req"
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "table",
+      "name": "outTable",
+      "tableName": "Tweets",
+      "connection": "gwabfunctions_STORAGE",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
