@@ -6,7 +6,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.3" />
     <PackageReference Include="Microsoft.Azure.WebJobs" Version="2.0.0" />
-    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="qrcodecore" Version="1.0.0-alpha5" />
   </ItemGroup>
 </Project>
